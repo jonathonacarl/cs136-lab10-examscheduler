@@ -2,7 +2,7 @@
 
 We will write a program (that could be used) to schedule final exams for the Registrar so that no student has two exams at the same time.
 
-You will use a greedy algorithm to determine an assignment of classes to exam slots such that:
+We will use a greedy algorithm to determine an assignment of classes to exam slots such that:
   * No student is enrolled in two courses assigned to the same exam slot.
   * Any attempt to combine two exam slots into one slot would violate rule 1.
 The second requirement ensures that we do not gratuitously waste exam slots (students would like to start their breaks as soon as possible, after all).
